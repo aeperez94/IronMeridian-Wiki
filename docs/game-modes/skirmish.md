@@ -1,5 +1,5 @@
 ---
-title: Skirmish
+title: Escaramuza
 sidebar_position: 1
 ---
 

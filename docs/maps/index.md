@@ -1,10 +1,10 @@
 ---
-title: Maps
+title: Mapas
 sidebar_position: 0
 ---
 
-- [Battlefield](/docs/maps/battlefield)
+- [Campo de batalla](/docs/maps/battlefield)
 - [Surface](/docs/maps/surface)
 - [Underground](/docs/maps/underground)
 - [Orbit](/docs/maps/orbit)
-- [Landmarks](/docs/maps/landmarks)
+- [Puntos de interés](/docs/maps/landmarks)

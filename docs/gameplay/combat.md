@@ -1,5 +1,5 @@
 ---
-title: Combat
+title: Combate
 sidebar_position: 13
 ---
 

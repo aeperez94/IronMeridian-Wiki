@@ -1,9 +1,9 @@
 ---
-title: Game Modes
+title: Modos de juego
 sidebar_position: 0
 ---
 
-- [Skirmish](/docs/game-modes/skirmish)
-- [AI vs AI](/docs/game-modes/ai-vs-ai)
-- [Multiplayer LAN](/docs/game-modes/multiplayer-lan)
-- [Multiplayer WAN](/docs/game-modes/multiplayer-wan)
+- [Escaramuza](/docs/game-modes/skirmish)
+- [IA contra IA](/docs/game-modes/ai-vs-ai)
+- [Multijugador LAN](/docs/game-modes/multiplayer-lan)
+- [Multijugador WAN](/docs/game-modes/multiplayer-wan)

@@ -1,9 +1,9 @@
 ---
-title: Buildings
+title: Edificios
 sidebar_position: 0
 ---
 
-- [Command](/docs/buildings/command)
+- [COMMAND](/docs/buildings/command)
 - [Vehicle Foundry](/docs/buildings/vehicle-foundry)
 - [Solar Array](/docs/buildings/solar-array)
 - [Research Facility](/docs/buildings/research-facility)

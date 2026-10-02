@@ -1,5 +1,5 @@
 ---
-title: Cloaking
+title: Camuflaje
 sidebar_position: 5
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Ground Upgrades
+title: Mejoras terrestres
 sidebar_position: 2
 ---
 

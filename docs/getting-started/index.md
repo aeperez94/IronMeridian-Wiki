@@ -1,8 +1,8 @@
 ---
-title: Getting Started
+title: Primeros pasos
 sidebar_position: 0
 ---
 
-- [About Iron Meridian](/docs/getting-started/about-iron-meridian)
-- [How to Play](/docs/getting-started/how-to-play)
-- [Controls](/docs/getting-started/controls)
+- [Acerca de Iron Meridian](/docs/getting-started/about-iron-meridian)
+- [Cómo jugar](/docs/getting-started/how-to-play)
+- [Controles](/docs/getting-started/controls)

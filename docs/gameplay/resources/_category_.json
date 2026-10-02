@@ -1,1 +1,8 @@
-{"label": "Resources", "position": 1, "link": {"type": "doc", "id": "gameplay/resources"}}
+{
+  "label": "Recursos",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "gameplay/resources"
+  }
+}

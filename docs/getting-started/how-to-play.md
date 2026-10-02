@@ -1,5 +1,5 @@
 ---
-title: How to Play
+title: Cómo jugar
 sidebar_position: 2
 ---
 
@@ -19,4 +19,4 @@ Debes conservar al menos un **COMMAND completamente construido**. Un COMMAND en 
 
 ## Siguiente paso
 
-Consulta [Controls](/docs/reference/controls), [Resources](/docs/gameplay/resources) y [Construction](/docs/gameplay/construction).
+Consulta [Controles](/docs/reference/controls), [Recursos](/docs/gameplay/resources) y [Construcción](/docs/gameplay/construction).

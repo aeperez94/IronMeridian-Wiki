@@ -1,5 +1,5 @@
 ---
-title: About Iron Meridian
+title: Acerca de Iron Meridian
 sidebar_position: 1
 ---
 
@@ -11,4 +11,4 @@ El campo de batalla actual se llama **Ashen Divide**. Hay escaramuzas contra IA,
 
 ## Estado de esta edición
 
-Las reglas confirmadas provienen del proyecto actual. Los diseños visuales se identifican por separado y no implican cambios de estadísticas. El lore pendiente se marca **TBD**.
+Las reglas confirmadas provienen del proyecto actual. Los diseños visuales se identifican por separado y no implican cambios de estadísticas. Las secciones sin información confirmada se incorporarán cuando exista material oficial.

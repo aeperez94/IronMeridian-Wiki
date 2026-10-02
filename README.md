@@ -29,7 +29,7 @@ Crear `docs/categoria/nombre.md` o `.mdx` con front matter `title` y `sidebar_po
 1. Copiar `templates/unit.mdx` o `templates/building.mdx` a su categoría en `docs`.
 2. Agregar un id único en `src/data/entities.json`, con `name`, `gameName`, `type`, `role`, `layer`, `producer` (unidades), `canon`, `visualStatus`, `image` y `stats`.
 3. Activar `<EntityCard id="nuevo-id" />` con el mismo id.
-4. Completar el comportamiento confirmado; usar `TBD` en datos desconocidos.
+4. Completar sólo el comportamiento confirmado; usar `TBD` en datos desconocidos del JSON y registrar las secciones pendientes en mantenimiento.
 5. Registrar evidencia y revisión en `maintenance/source-register.md`.
 6. Ejecutar `npm run check`.
 
@@ -41,30 +41,30 @@ Guardar imágenes propias en `static/img/units`, `static/img/buildings` o `stati
 
 ## Publicar en GitHub Pages
 
-El proyecto está preparado para el repositorio **aeperez94/IronMeridian-Wiki**. No se ha creado ni publicado automáticamente porque la conexión disponible no ofrece esas operaciones.
+El repositorio es [aeperez94/IronMeridian-Wiki](https://github.com/aeperez94/IronMeridian-Wiki), con branch `main` y URL pública [Iron Meridian Wiki](https://aeperez94.github.io/IronMeridian-Wiki/).
 
-1. Crear en GitHub un repositorio vacío llamado `IronMeridian-Wiki`. Elegir visibilidad conscientemente: una wiki pública no requiere publicar el código privado del juego. No incluir los archivos privados de `sources` usados para preparar esta entrega.
-2. Desde esta carpeta:
+1. Ejecutar `npm run check` antes de publicar.
+2. Hacer commit y push a `main` (o abrir una pull request para revisión).
+3. El workflow **Wiki validation and Pages** valida y despliega automáticamente `main`. También permite ejecución manual desde Actions.
+4. Confirmar los jobs `build` y `deploy` y revisar el sitio público.
 
-```sh
-git init -b main
-git add .
-git commit -m "feat: initialize Iron Meridian official wiki"
-git remote add origin https://github.com/aeperez94/IronMeridian-Wiki.git
-git push -u origin main
-```
+Pages utiliza **GitHub Actions** como Source. `url` y `baseUrl` conservan el dominio y `/IronMeridian-Wiki/`. No subir `build` ni `node_modules`; Actions los genera con `npm ci`. Las pull requests se validan sin desplegarse.
 
-3. Abrir **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-4. En Actions ejecutar **Wiki validation and Pages** si no comenzó con el push.
-5. Confirmar ambos jobs verdes y abrir la URL mostrada por `deploy`.
+## Búsqueda local
 
-URL prevista (no publicada durante esta entrega): `https://aeperez94.github.io/IronMeridian-Wiki/`.
+V1.1 incluye `@easyops-cn/docusaurus-search-local` (MIT), compatible con Docusaurus 3. El build genera un índice estático con nombre hash; el navegador lo consulta en GitHub Pages. No necesita backend, cuenta externa ni claves. Indexa artículos y Home en español e inglés para reconocer nombres del juego. La interfaz se presenta en español.
 
-El workflow valida pull requests sin desplegarlas y publica únicamente main. Si cambias owner/nombre/dominio, actualizar `url`, `baseUrl`, `organizationName` y `projectName` en `docusaurus.config.ts`. En Pages un repositorio privado requiere un plan compatible. Si el entorno github-pages exige aprobación, revisa sus reglas de deployment.
+La búsqueda se prueba sobre producción: `npm run build && npm run serve`. El servidor de desarrollo no genera el índice completo. Cada deploy reconstruye el índice. Usar la barra de navegación o Ctrl/Cmd+K y buscar, por ejemplo, MULE, COMMAND o Ferrite. No se habilita la opción Ask AI ni ningún servicio externo. Referencia: https://github.com/easyops-cn/docusaurus-search-local.
 
-## Búsqueda futura
+## Tema, fichas y arte
 
-La búsqueda todavía no está activa. Agregar `themeConfig.algolia` en `docusaurus.config.ts` una vez creado el índice de DocSearch/Algolia y disponibles `appId`, `indexName` y una clave pública de búsqueda. Nunca agregar una clave administrativa al cliente. Alternativa: un plugin de búsqueda local compatible con esta versión. El sitio funciona sin depender de un servicio de búsqueda.
+Barlow Condensed (títulos) e IBM Plex Sans (texto), distribuidas por Fontsource bajo SIL OFL 1.1, se empaquetan localmente. No se solicitan fuentes a terceros en runtime. Licencias incluidas en `static/fonts/licenses`.
+
+EntityCard divide la cabecera en render e información; en móvil pasa a una columna. Las estadísticas siguen leyendo `entities.json`, incluidos ceros y notas confirmadas. `canon` y `visualStatus` permanecen internos; sólo el estado explícito Provisional muestra una etiqueta discreta.
+
+Para el hero, asignar `heroImage` en `src/pages/index.tsx` a una ruta de imagen oficial de `static/img` y ajustar su texto alternativo. Para una ficha, cambiar `image` en el registro de la entidad. No hace falta modificar el layout. Sin imagen, el componente muestra un archivo visual editorial, sin simular una unidad.
+
+No publicar secciones vacías ni repetir párrafos para llenar una plantilla. Registrar Trasfondo, Galería e Historial pendientes en `maintenance/TBD.md`. Las estadísticas desconocidas continúan marcadas `TBD`, nunca estimadas.
 
 ## Versiones e idiomas
 

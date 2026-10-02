@@ -1,5 +1,5 @@
 ---
-title: Research
+title: Investigación
 sidebar_position: 4
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Fog of War
+title: Niebla de guerra
 sidebar_position: 9
 ---
 

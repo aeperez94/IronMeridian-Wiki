@@ -1,5 +1,5 @@
 ---
-title: Legs
+title: Piernas
 sidebar_position: 3
 ---
 

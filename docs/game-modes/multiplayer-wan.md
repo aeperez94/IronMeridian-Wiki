@@ -1,5 +1,5 @@
 ---
-title: Multiplayer WAN
+title: Multijugador WAN
 sidebar_position: 4
 ---
 

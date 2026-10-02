@@ -1,8 +1,8 @@
 ---
-title: Strategic AI
+title: Economía y estrategia
 sidebar_position: 1
 ---
 
-La IA desarrolla una economía, amplía infraestructura, produce fuerzas y coordina acciones entre capas. Su estrategia utiliza información observada y memoria de contactos.
+La IA desarrolla una economía, amplía su infraestructura y produce fuerzas para actuar entre capas. Su respuesta cambia según los recursos, las fuerzas disponibles y las amenazas conocidas.
 
-La composición y respuesta cambian según las amenazas conocidas, recursos y fuerzas disponibles. Consulta las páginas de [Enemy Intelligence](/docs/ai/enemy-intelligence) y [Combined Arms](/docs/ai/combined-arms).
+La expansión económica y la producción forman parte de su desarrollo durante la partida. Consulta [Composición del ejército](/docs/ai/army-composition) y [Armas combinadas](/docs/ai/combined-arms).

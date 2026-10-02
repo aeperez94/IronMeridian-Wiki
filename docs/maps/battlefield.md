@@ -1,5 +1,5 @@
 ---
-title: Battlefield
+title: Campo de batalla
 sidebar_position: 1
 ---
 

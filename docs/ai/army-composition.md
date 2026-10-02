@@ -1,8 +1,8 @@
 ---
-title: Army Composition
+title: Composición del ejército
 sidebar_position: 3
 ---
 
-La IA combina producción de vehículos, Combots, aeronaves y defensa según su situación económica y las amenazas conocidas. También tiene en cuenta fuerzas en producción.
+La IA combina vehículos, Combots, aeronaves y defensas según su economía y las amenazas conocidas. Su ejército puede variar entre partidas y a medida que cambia la situación.
 
-No usa una composición fija idéntica en todas las partidas. Los porcentajes internos de decisión no se presentan como reglas para el jugador.
+Observa qué fuerzas despliega antes de decidir cómo responder.

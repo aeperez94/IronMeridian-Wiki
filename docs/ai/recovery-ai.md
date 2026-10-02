@@ -1,8 +1,8 @@
 ---
-title: Recovery AI
+title: Recuperación y reparaciones
 sidebar_position: 5
 ---
 
-La IA puede reservar MULEs para recuperar restos, piezas o reparar de manera conservadora. Considera el riesgo local y abandona intentos que no progresan.
+La IA utiliza MULEs para recuperar restos y piezas o reparar. Puede abandonar una tarea peligrosa o que no progresa y devolver esos trabajadores a la economía.
 
-Tras finalizar o abandonar una tarea, los trabajadores pueden volver a la economía. Disputar el campo de batalla puede impedir su recuperación.
+Disputar el campo de batalla puede impedir que recupere material. Consulta [Recuperación y restos](/docs/gameplay/salvage-wrecks).

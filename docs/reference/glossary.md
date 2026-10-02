@@ -1,5 +1,5 @@
 ---
-title: Glossary
+title: Glosario
 sidebar_position: 6
 ---
 

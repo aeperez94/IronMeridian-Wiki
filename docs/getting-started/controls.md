@@ -1,5 +1,5 @@
 ---
-title: Controls
+title: Controles
 sidebar_position: 3
 ---
 

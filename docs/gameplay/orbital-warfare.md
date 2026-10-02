@@ -1,5 +1,5 @@
 ---
-title: Orbital Warfare
+title: Guerra orbital
 sidebar_position: 16
 ---
 

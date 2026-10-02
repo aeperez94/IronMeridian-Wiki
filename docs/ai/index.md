@@ -1,11 +1,13 @@
 ---
-title: AI
+title: Oponentes de IA
 sidebar_position: 0
 ---
 
-- [Strategic AI](/docs/ai/strategic-ai)
-- [Enemy Intelligence](/docs/ai/enemy-intelligence)
-- [Army Composition](/docs/ai/army-composition)
-- [Tactical AI](/docs/ai/tactical-ai)
-- [Recovery AI](/docs/ai/recovery-ai)
-- [Combined Arms](/docs/ai/combined-arms)
+La IA desarrolla su economía, produce fuerzas y responde a las amenazas que conoce. Estas páginas describen qué puedes observar al enfrentarte a ella.
+
+- [Economía y estrategia](/docs/ai/strategic-ai)
+- [Exploración y amenazas](/docs/ai/enemy-intelligence)
+- [Composición del ejército](/docs/ai/army-composition)
+- [Aviación y respuesta táctica](/docs/ai/tactical-ai)
+- [Recuperación y reparaciones](/docs/ai/recovery-ai)
+- [Armas combinadas](/docs/ai/combined-arms)

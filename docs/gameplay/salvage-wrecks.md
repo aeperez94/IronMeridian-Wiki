@@ -1,5 +1,5 @@
 ---
-title: Salvage & Wrecks
+title: Recuperación y restos
 sidebar_position: 15
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: Enemy Intelligence
+title: Exploración y amenazas
 sidebar_position: 2
 ---
 
-La IA observa contactos enemigos y conserva memoria de ellos. La confianza de contactos antiguos disminuye con el tiempo.
+Los contactos enemigos observados influyen en la respuesta de la IA. Puede responder a amenazas detectadas anteriormente; no debes asumir que conoce todas tus unidades ocultas.
 
-Los contactos y capacidades conocidos influyen en la evaluación de amenazas y riesgos. Esta descripción no implica conocimiento completo de unidades ocultas.
+La exploración y la información disponible importan tanto para tu ejército como para tu oponente.

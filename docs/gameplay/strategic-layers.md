@@ -1,5 +1,5 @@
 ---
-title: Strategic Layers
+title: Capas estratégicas
 sidebar_position: 5
 ---
 

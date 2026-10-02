@@ -1,1 +1,8 @@
-{"label": "Workers", "position": 1, "link": {"type": "generated-index", "title": "Workers"}}
+{
+  "label": "Trabajadores",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Workers"
+  }
+}

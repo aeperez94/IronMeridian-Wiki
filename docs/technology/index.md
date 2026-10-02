@@ -1,9 +1,9 @@
 ---
-title: Technology
+title: Tecnología
 sidebar_position: 0
 ---
 
-- [Tech Tree](/docs/technology/tech-tree)
-- [Ground Upgrades](/docs/technology/ground-upgrades)
-- [Anti-Air Upgrades](/docs/technology/anti-air-upgrades)
-- [Research](/docs/technology/research)
+- [Árbol tecnológico](/docs/technology/tech-tree)
+- [Mejoras terrestres](/docs/technology/ground-upgrades)
+- [Mejoras antiaéreas](/docs/technology/anti-air-upgrades)
+- [Investigación](/docs/technology/research)

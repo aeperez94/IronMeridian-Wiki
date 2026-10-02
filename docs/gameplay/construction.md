@@ -1,5 +1,5 @@
 ---
-title: Construction
+title: Construcción
 sidebar_position: 10
 ---
 

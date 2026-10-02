@@ -1,5 +1,5 @@
 ---
-title: Landmarks
+title: Puntos de interés
 sidebar_position: 5
 ---
 

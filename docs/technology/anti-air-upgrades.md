@@ -1,5 +1,5 @@
 ---
-title: Anti-Air Upgrades
+title: Mejoras antiaéreas
 sidebar_position: 3
 ---
 

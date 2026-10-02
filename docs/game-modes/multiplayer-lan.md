@@ -1,5 +1,5 @@
 ---
-title: Multiplayer LAN
+title: Multijugador LAN
 sidebar_position: 3
 ---
 

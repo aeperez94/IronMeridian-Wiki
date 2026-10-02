@@ -1,8 +1,8 @@
 ---
-title: Combined Arms
+title: Armas combinadas
 sidebar_position: 6
 ---
 
-La IA coordina grupos con funciones complementarias, incluido apoyo de Fighter a misiones de Bomber. Las tareas se revisan según la disponibilidad y las amenazas conocidas.
+La IA emplea grupos con funciones complementarias, incluido el apoyo de Fighter a misiones de Bomber. Las fuerzas disponibles y las amenazas conocidas influyen en sus tareas.
 
-Para responder, combina visión, defensa anti-air y fuerzas terrestres en lugar de asumir que una única unidad contrarresta todas las amenazas.
+Combina visión, defensa antiaérea y fuerzas terrestres para responder a amenazas diferentes.

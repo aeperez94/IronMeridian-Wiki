@@ -1,5 +1,5 @@
 ---
-title: Tech Tree
+title: Árbol tecnológico
 sidebar_position: 1
 ---
 

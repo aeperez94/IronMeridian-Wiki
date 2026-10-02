@@ -1,5 +1,5 @@
 ---
-title: Patch Notes
+title: Notas de actualización
 sidebar_position: 5
 ---
 

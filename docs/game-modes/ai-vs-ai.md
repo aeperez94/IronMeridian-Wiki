@@ -1,5 +1,5 @@
 ---
-title: AI vs AI
+title: IA contra IA
 sidebar_position: 2
 ---
 

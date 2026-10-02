@@ -1,8 +1,8 @@
 ---
-title: Tactical AI
+title: Aviación y respuesta táctica
 sidebar_position: 4
 ---
 
-La IA asigna tareas a Fighter, Bomber y EMP Carrier y puede reaccionar con defensa anti-air. El riesgo conocido influye en las misiones.
+Fighter, Bomber y EMP Carrier cumplen funciones diferentes en las fuerzas de la IA. La presencia de aeronaves o tropas especializadas puede cambiar su respuesta, incluida la defensa antiaérea.
 
-La presencia de Air o de tropas especializadas puede cambiar su respuesta. No todas las unidades reciben la misma función táctica.
+Las amenazas conocidas influyen en sus misiones. Consulta [Guerra aérea](/docs/gameplay/aircraft-warfare) y [Combate](/docs/gameplay/combat).

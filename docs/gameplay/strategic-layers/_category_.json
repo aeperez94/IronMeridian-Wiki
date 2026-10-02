@@ -1,1 +1,8 @@
-{"label": "Strategic Layers", "position": 2, "link": {"type": "doc", "id": "gameplay/strategic-layers"}}
+{
+  "label": "Capas estratégicas",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "gameplay/strategic-layers"
+  }
+}
