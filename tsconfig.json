@@ -1,0 +1,16 @@
+{
+  "extends": "@docusaurus/tsconfig",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "types": [
+      "node",
+      "@docusaurus/theme-classic"
+    ]
+  },
+  "include": [
+    "src",
+    "docusaurus.config.ts",
+    "sidebars.ts"
+  ]
+}

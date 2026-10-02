@@ -1,0 +1,396 @@
+{
+  "mule": {
+    "gameName": "MULE / Worker",
+    "stats": {
+      "Ferrite": 100.0,
+      "Energy": 0.0,
+      "Population": 1.0,
+      "Hit points": 120.0,
+      "Armor": 0.0,
+      "Time (s)": 12.0,
+      "Vision": 24.0
+    },
+    "name": "MULE",
+    "type": "unit",
+    "role": "Economía y construcción",
+    "layer": "Surface / Underground / Orbit",
+    "producer": "COMMAND",
+    "canon": "MULE V3-A",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "Dirección visual indicada por el autor; render pendiente"
+  },
+  "light-tank": {
+    "gameName": "KESTREL / Scout",
+    "stats": {
+      "Ferrite": 150.0,
+      "Energy": 0.0,
+      "Population": 1.0,
+      "Hit points": 180.0,
+      "Armor": 1.0,
+      "Time (s)": 16.0,
+      "Vision": 35.0
+    },
+    "name": "Light Tank",
+    "type": "unit",
+    "role": "Reconocimiento y hostigamiento",
+    "layer": "Surface; transferencias por accesos propios",
+    "producer": "Vehicle Foundry",
+    "canon": "Light Tank V3-A — Integrated Scout",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "Dirección visual indicada por el autor; render pendiente"
+  },
+  "bastion": {
+    "gameName": "BASTION / Tank",
+    "stats": {
+      "Ferrite": 300.0,
+      "Energy": 50.0,
+      "Population": 3.0,
+      "Hit points": 500.0,
+      "Armor": 4.0,
+      "Time (s)": 27.0,
+      "Vision": 30.0
+    },
+    "name": "Bastion",
+    "type": "unit",
+    "role": "Combate terrestre pesado",
+    "layer": "Surface; transferencias por accesos propios",
+    "producer": "Vehicle Foundry",
+    "canon": "Bastion V2-B — Siege Standard",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "Dirección visual indicada por el autor; render pendiente"
+  },
+  "missile-tank": {
+    "gameName": "Missile Tank",
+    "stats": {
+      "Ferrite": 250.0,
+      "Energy": 90.0,
+      "Population": 2.0,
+      "Hit points": 280.0,
+      "Armor": 2.0,
+      "Time (s)": 24.0,
+      "Vision": 30.0
+    },
+    "name": "Missile Tank",
+    "type": "unit",
+    "role": "Defensa móvil anti-air",
+    "layer": "Surface; transferencias por accesos propios",
+    "producer": "Vehicle Foundry",
+    "canon": "TBD",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "TBD"
+  },
+  "fighter-jet": {
+    "gameName": "Fighter Jet",
+    "stats": {
+      "Ferrite": 240.0,
+      "Energy": 100.0,
+      "Population": 2.0,
+      "Hit points": 180.0,
+      "Armor": 1.0,
+      "Time (s)": 22.0,
+      "Vision": 30.0
+    },
+    "name": "Fighter Jet",
+    "type": "unit",
+    "role": "Superioridad aérea y hostigamiento",
+    "layer": "Surface",
+    "producer": "Aircraft Hangar",
+    "canon": "TBD",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "TBD"
+  },
+  "bomber": {
+    "gameName": "Bomber",
+    "stats": {
+      "Ferrite": 420.0,
+      "Energy": 220.0,
+      "Population": 3.0,
+      "Hit points": 520.0,
+      "Armor": 2.0,
+      "Time (s)": 34.0,
+      "Vision": 30.0
+    },
+    "name": "Bomber",
+    "type": "unit",
+    "role": "Bombardeo de objetivos Ground",
+    "layer": "Surface",
+    "producer": "Aircraft Hangar",
+    "canon": "TBD",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "TBD"
+  },
+  "orbital-gunship": {
+    "gameName": "VIGIL / Gunship",
+    "stats": {
+      "Ferrite": 360.0,
+      "Energy": 180.0,
+      "Population": 3.0,
+      "Hit points": 650.0,
+      "Armor": 3.0,
+      "Time (s)": 32.0,
+      "Vision": 38.0
+    },
+    "name": "Orbital Gunship",
+    "type": "unit",
+    "role": "Combate y apoyo orbital",
+    "layer": "Orbit",
+    "producer": "Orbital Platform",
+    "canon": "TBD",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "TBD"
+  },
+  "emp-carrier": {
+    "gameName": "ARC / EMP Carrier",
+    "stats": {
+      "Ferrite": 225.0,
+      "Energy": 100.0,
+      "Population": 2.0,
+      "Hit points": 240.0,
+      "Armor": 1.0,
+      "Time (s)": 24.0,
+      "Vision": 24.0
+    },
+    "name": "EMP Carrier",
+    "type": "unit",
+    "role": "Interrupción de sistemas",
+    "layer": "Surface; transferencias por accesos propios",
+    "producer": "Vehicle Foundry",
+    "canon": "TBD",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "TBD"
+  },
+  "command": {
+    "gameName": "COMMAND / Headquarters",
+    "stats": {
+      "Ferrite": 425.0,
+      "Energy": 100.0,
+      "Hit points": 5000.0,
+      "Armor": 8.0,
+      "Time (s)": 45.0,
+      "Vision": 34.0
+    },
+    "name": "COMMAND",
+    "type": "building",
+    "role": "Producción de MULEs y núcleo de base",
+    "layer": "Surface",
+    "canon": "COMMAND V1-D — Compact Citadel",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "Dirección visual indicada por el autor; render pendiente"
+  },
+  "vehicle-foundry": {
+    "gameName": "Vehicle foundry",
+    "stats": {
+      "Ferrite": 350.0,
+      "Energy": 30.0,
+      "Hit points": 1800.0,
+      "Armor": 5.0,
+      "Time (s)": 30.0,
+      "Vision": 27.0
+    },
+    "name": "Vehicle Foundry",
+    "type": "building",
+    "role": "Producción de vehículos",
+    "layer": "Surface / Underground",
+    "canon": "Vehicle Foundry V1-A — Integrated Motorworks",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "Dirección visual indicada por el autor; render pendiente"
+  },
+  "solar-array": {
+    "gameName": "Solar array",
+    "stats": {
+      "Ferrite": 450.0,
+      "Energy": 80.0,
+      "Hit points": 850.0,
+      "Armor": 2.0,
+      "Time (s)": 32.0,
+      "Vision": 28.0
+    },
+    "name": "Solar Array",
+    "type": "building",
+    "role": "Generación de Energy",
+    "layer": "Orbit",
+    "canon": "Solar Array V1-A — Helio Array",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "Dirección visual indicada por el autor; render pendiente"
+  },
+  "research-facility": {
+    "gameName": "Research Facility",
+    "stats": {
+      "Ferrite": 500.0,
+      "Energy": 250.0,
+      "Hit points": 1500.0,
+      "Armor": 4.0,
+      "Time (s)": 45.0,
+      "Vision": 27.0
+    },
+    "name": "Research Facility",
+    "type": "building",
+    "role": "Análisis de tecnologías de piezas",
+    "layer": "Surface / Underground",
+    "canon": "Research Facility V1-A — Systems Lab",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "Dirección visual indicada por el autor; render pendiente"
+  },
+  "aircraft-hangar": {
+    "gameName": "Aircraft Hangar",
+    "stats": {
+      "Ferrite": 400.0,
+      "Energy": 120.0,
+      "Hit points": 1600.0,
+      "Armor": 4.0,
+      "Time (s)": 35.0,
+      "Vision": 27.0
+    },
+    "name": "Aircraft Hangar",
+    "type": "building",
+    "role": "Producción de aeronaves",
+    "layer": "Surface",
+    "canon": "TBD",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "TBD"
+  },
+  "scout-tower": {
+    "gameName": "Scout turret",
+    "stats": {
+      "Ferrite": 100.0,
+      "Energy": 50.0,
+      "Hit points": 750.0,
+      "Armor": 3.0,
+      "Time (s)": 12.0,
+      "Vision": 34.0
+    },
+    "name": "Scout Tower",
+    "type": "building",
+    "role": "Visión y especialización defensiva",
+    "layer": "Surface / Underground",
+    "canon": "TBD",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "TBD"
+  },
+  "stratum-elevator": {
+    "gameName": "Stratum elevator",
+    "stats": {
+      "Ferrite": 300.0,
+      "Energy": 80.0,
+      "Hit points": 1000.0,
+      "Armor": 4.0,
+      "Time (s)": 30.0,
+      "Vision": 26.0
+    },
+    "name": "Stratum Elevator",
+    "type": "building",
+    "role": "Acceso subterráneo y entrega de Ferrite",
+    "layer": "Surface; conexión Underground",
+    "canon": "TBD",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "TBD"
+  },
+  "orbital-platform": {
+    "gameName": "Orbital platform",
+    "stats": {
+      "Ferrite": "Vinculado al Orbital Uplink; no es construcción independiente",
+      "Energy": "Vinculado al Orbital Uplink; no es construcción independiente",
+      "Hit points": 2200.0,
+      "Armor": 5.0,
+      "Time (s)": "Vinculado al Orbital Uplink; no es construcción independiente",
+      "Vision": 38.0
+    },
+    "name": "Orbital Platform",
+    "type": "building",
+    "role": "Acceso, producción y defensa orbital",
+    "layer": "Orbit",
+    "canon": "Orbital Platform V1-A — Orbital Command Node",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "Provisional"
+  },
+  "flux-generator": {
+    "gameName": "Flux generator",
+    "stats": {
+      "Ferrite": 180.0,
+      "Energy": 0.0,
+      "Hit points": 700.0,
+      "Armor": 2.0,
+      "Time (s)": 18.0,
+      "Vision": 20.0
+    },
+    "name": "Flux Generator",
+    "type": "building",
+    "role": "Generación de Energy",
+    "layer": "Surface / Underground",
+    "canon": "TBD",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "TBD"
+  },
+  "combot-assembly": {
+    "gameName": "Combot assembly",
+    "stats": {
+      "Ferrite": 600.0,
+      "Energy": 150.0,
+      "Hit points": 2400.0,
+      "Armor": 6.0,
+      "Time (s)": 45.0,
+      "Vision": 34.0
+    },
+    "name": "Combot Assembly",
+    "type": "building",
+    "role": "Ensamblaje de Combots",
+    "layer": "Surface / Underground",
+    "canon": "TBD",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "TBD"
+  },
+  "combot-part-factory": {
+    "gameName": "Combot Part Factory",
+    "stats": {
+      "Ferrite": 450.0,
+      "Energy": 100.0,
+      "Hit points": 1700.0,
+      "Armor": 5.0,
+      "Time (s)": 40.0,
+      "Vision": 27.0
+    },
+    "name": "Combot Part Factory",
+    "type": "building",
+    "role": "Fabricación de piezas",
+    "layer": "Surface / Underground",
+    "canon": "TBD",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "TBD"
+  },
+  "orbital-uplink": {
+    "gameName": "Orbital uplink",
+    "stats": {
+      "Ferrite": 450.0,
+      "Energy": 220.0,
+      "Hit points": 1500.0,
+      "Armor": 4.0,
+      "Time (s)": 38.0,
+      "Vision": 28.0
+    },
+    "name": "Orbital Uplink",
+    "type": "building",
+    "role": "Acceso a Orbit",
+    "layer": "Surface",
+    "canon": "TBD",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "TBD"
+  },
+  "orbital-bastion": {
+    "gameName": "Orbital bastion",
+    "stats": {
+      "Ferrite": 320.0,
+      "Energy": 140.0,
+      "Hit points": 1100.0,
+      "Armor": 6.0,
+      "Time (s)": 28.0,
+      "Vision": 40.0
+    },
+    "name": "Orbital Bastion",
+    "type": "building",
+    "role": "Defensa orbital",
+    "layer": "Orbit",
+    "canon": "TBD",
+    "image": "/img/render-placeholder.svg",
+    "visualStatus": "TBD"
+  }
+}

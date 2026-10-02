@@ -1,0 +1,18 @@
+{
+  "replace-with-unique-id": {
+    "name": "TBD",
+    "gameName": "TBD",
+    "type": "building",
+    "role": "TBD",
+    "layer": "TBD",
+    "canon": "TBD",
+    "visualStatus": "TBD",
+    "image": "/img/render-placeholder.svg",
+    "stats": {
+      "Ferrite": "TBD",
+      "Energy": "TBD",
+      "Hit points": "TBD",
+      "Time (s)": "TBD"
+    }
+  }
+}
